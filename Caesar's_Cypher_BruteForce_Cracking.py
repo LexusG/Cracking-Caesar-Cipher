@@ -1,7 +1,7 @@
  # Caesar's Cypher BruteForce Cracking Script 
 
 decrtpt_message = input("Input Cypher Here: ").upper()
-SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+SYMBOLS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # Loop every key 
 for key in range(len(SYMBOLS)):
@@ -25,4 +25,4 @@ for key in range(len(SYMBOLS)):
             converted = converted + symbol 
 
     #Display Every Possible decryption:
-    print('Key #%s:  %s' % (key, converted))
+    print('Key #%s:  %s' % (key, converted)) 
